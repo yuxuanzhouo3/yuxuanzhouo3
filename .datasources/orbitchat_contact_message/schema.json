@@ -1,0 +1,33 @@
+
+{
+  "name": "orbitchat_contact_message",
+  "title": "OrbitChat联系消息",
+  "schemas": [
+    {
+      "name": "name",
+      "title": "姓名",
+      "type": "String"
+    },
+    {
+      "name": "email",
+      "title": "邮箱",
+      "type": "Email"
+    },
+    {
+      "name": "country",
+      "title": "国家",
+      "type": "String"
+    },
+    {
+      "name": "message",
+      "title": "需求描述",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "source",
+      "title": "来源",
+      "type": "String"
+    }
+  ]
+}
+  

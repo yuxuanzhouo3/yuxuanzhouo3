@@ -1,0 +1,34 @@
+
+{
+  "name": "orbitchat_user_feedback",
+  "title": "OrbitChat用户反馈",
+  "schemas": [
+    {
+      "name": "name",
+      "title": "姓名",
+      "type": "String"
+    },
+    {
+      "name": "email",
+      "title": "邮箱",
+      "type": "Email"
+    },
+    {
+      "name": "message",
+      "title": "消息内容",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "submit_time",
+      "title": "提交时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "status",
+      "title": "处理状态",
+      "type": "String"
+    }
+  ]
+}
+  

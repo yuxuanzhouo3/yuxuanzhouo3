@@ -1,0 +1,69 @@
+
+[
+  {
+    "_id": "feedback_001",
+    "name": "张小明",
+    "email": "zhangxiaoming@techcorp.com",
+    "message": "我们团队正在评估OrbitChat作为企业级通讯解决方案，想了解企业版的详细功能、定价方案以及技术支持服务。团队规模约200人，需要私有化部署支持。",
+    "submit_time": 1729776000000,
+    "status": "待处理",
+    "createdAt": 1729776000000,
+    "updatedAt": 1729776000000,
+    "owner": "system",
+    "createBy": "system",
+    "updateBy": "system"
+  },
+  {
+    "_id": "feedback_002",
+    "name": "Sarah Johnson",
+    "email": "sarah.j@startup.io",
+    "message": "Hi, I'm the CTO of a fast-growing startup with 50+ remote employees. We're looking for a secure communication platform that supports both team collaboration and client communication. Would love to see a demo and discuss integration options with our existing tools.",
+    "submit_time": 1729779600000,
+    "status": "已处理",
+    "createdAt": 1729779600000,
+    "updatedAt": 1729783200000,
+    "owner": "system",
+    "createBy": "system",
+    "updateBy": "system"
+  },
+  {
+    "_id": "feedback_003",
+    "name": "李华",
+    "email": "lihua.dev@gmail.com",
+    "message": "作为开发者，我想了解OrbitChat的SDK集成文档，特别是React Native版本的集成指南。我们计划将聊天功能集成到现有的移动应用中，需要了解API调用限制和定价模式。",
+    "submit_time": 1729783200000,
+    "status": "已回复",
+    "createdAt": 1729783200000,
+    "updatedAt": 1729786800000,
+    "owner": "system",
+    "createBy": "system",
+    "updateBy": "system"
+  },
+  {
+    "_id": "feedback_004",
+    "name": "Emma Wilson",
+    "email": "emma.wilson@techcorp.com",
+    "message": "Experiencing some issues with the mobile app notifications. The push notifications are not working consistently on iOS devices. Also, the file sharing feature seems to have size limitations that are not clearly documented.",
+    "submit_time": 1729786800000,
+    "status": "待处理",
+    "createdAt": 1729786800000,
+    "updatedAt": 1729786800000,
+    "owner": "system",
+    "createBy": "system",
+    "updateBy": "system"
+  },
+  {
+    "_id": "feedback_005",
+    "name": "王建国",
+    "email": "wangjianguo@startup.com",
+    "message": "我们初创团队正在评估OrbitChat作为内部沟通工具，请问是否有针对初创公司的优惠政策？团队规模目前15人，计划扩展到30人，需要了解按用户计费的详细方案。",
+    "submit_time": 1729790400000,
+    "status": "已处理",
+    "createdAt": 1729790400000,
+    "updatedAt": 1729794000000,
+    "owner": "system",
+    "createBy": "system",
+    "updateBy": "system"
+  }
+]
+  

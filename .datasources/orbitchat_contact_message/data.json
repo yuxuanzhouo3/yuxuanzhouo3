@@ -1,0 +1,43 @@
+
+[
+  {
+    "_id": "msg_001",
+    "name": "张小明",
+    "email": "zhangxiaoming@techcorp.com",
+    "country": "中国",
+    "message": "我们团队正在评估OrbitChat作为企业级通讯解决方案，想了解企业版的详细功能、定价方案以及技术支持服务。团队规模约200人，需要私有化部署支持。",
+    "source": "国内",
+    "createdAt": 1729776000000,
+    "updatedAt": 1729776000000,
+    "owner": "system",
+    "createBy": "system",
+    "updateBy": "system"
+  },
+  {
+    "_id": "msg_002",
+    "email": "sarah.chen@startup.io",
+    "country": "美国",
+    "message": "Hi, I'm the CTO of a fast-growing startup with 50+ remote employees. We're looking for a secure communication platform that supports both team collaboration and client communication. Would love to see a demo and discuss integration options with our existing tools.",
+    "name": "Sarah Chen",
+    "source": "国外",
+    "createdAt": 1729783200000,
+    "updatedAt": 1729783200000,
+    "owner": "system",
+    "createBy": "system",
+    "updateBy": "system"
+  },
+  {
+    "_id": "msg_003",
+    "name": "李建国",
+    "email": "lijianguo@consulting.com",
+    "country": "中国",
+    "message": "作为管理咨询顾问，我对OrbitChat的多端同步和文件共享功能很感兴趣。请问是否支持自定义品牌标识？另外想了解API接口的开放程度，我们可能需要与客户的OA系统进行集成。",
+    "source": "国内",
+    "createdAt": 1729790400000,
+    "updatedAt": 1729790400000,
+    "owner": "system",
+    "createBy": "system",
+    "updateBy": "system"
+  }
+]
+  

@@ -1,0 +1,34 @@
+
+{
+  "name": "orbitchat_access_logs",
+  "title": "OrbitChat用户访问记录",
+  "schemas": [
+    {
+      "name": "visitor_ip",
+      "title": "访问者IP",
+      "type": "String"
+    },
+    {
+      "name": "country",
+      "title": "国家",
+      "type": "String"
+    },
+    {
+      "name": "visit_time",
+      "title": "访问时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "referrer",
+      "title": "来源页面",
+      "type": "Url"
+    },
+    {
+      "name": "user_agent",
+      "title": "用户代理",
+      "type": "String"
+    }
+  ]
+}
+  
