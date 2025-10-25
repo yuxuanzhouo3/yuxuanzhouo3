@@ -15,25 +15,9 @@ export function ContactSection(props) {
     message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [userCountry, setUserCountry] = useState('');
   const {
     toast
   } = useToast();
-
-  // 获取用户地理位置
-  useEffect(() => {
-    const getUserLocation = async () => {
-      try {
-        const response = await fetch('https://ipapi.co/json/');
-        const data = await response.json();
-        setUserCountry(data.country_name);
-      } catch (error) {
-        console.error('Failed to get location:', error);
-        setUserCountry('未知');
-      }
-    };
-    getUserLocation();
-  }, []);
   const handleSubmit = async e => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -47,8 +31,9 @@ export function ContactSection(props) {
             name: formData.name,
             email: formData.email,
             message: formData.message,
-            submit_time: new Date().getTime(),
-            status: 'pending'
+            submit_time: Date.now(),
+            // 使用时间戳格式
+            status: 'pending' // 必须包含status字段
           }
         }
       });
@@ -67,7 +52,7 @@ export function ContactSection(props) {
       console.error('Failed to submit feedback:', error);
       toast({
         title: "提交失败",
-        description: error.message || "请稍后重试",
+        description: "请稍后重试",
         variant: "destructive"
       });
     } finally {
